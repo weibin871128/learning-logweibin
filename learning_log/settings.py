@@ -148,7 +148,7 @@ if os.getcwd() =='/app':
     SECURE_PROXY_SSL_HEADER=('HTTP_X_FORWARDED_PROTO','https')
     
     #只允许Heroku托管这个项目
-    ALLOWED_HOSTS=['learning-logweibin-herokuapp.com']
+    ALLOWED_HOSTS=['learning-logweibin.herokuapp.com']
     
     DEBUG=False
     
